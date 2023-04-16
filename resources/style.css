@@ -74,7 +74,18 @@ a{
     font-family: 'Luckiest Guy', cursive;
     color: red;
     text-shadow: 1px 1px 2px white;
+}
 
+a:hover{
+    color: yellow;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px white;
+}
+
+a:active{
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px white;
 }
 
 /*Navigation Bar*/
@@ -218,3 +229,19 @@ nav{
     font-family: 'Nanum Gothic Coding', monospace;
     font-size: 1.2rem;
  }
+
+
+@media only screen and (max-width: 600px){
+    footer{
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 9rem;
+    }
+
+    footer h4{
+        margin: 0 auto;
+    }
+    footer span{
+        font-size: .8rem;
+    }
+}
